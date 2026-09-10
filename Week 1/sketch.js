@@ -4,7 +4,9 @@ function setup() {
 
 function draw() {
   background(220);
-  strokeWeight(2);
+  
+  strokeWeight(1);
+  textSize(20);
 
   //stoplicht
   //1=X lengte positie van 0, 2=Y hoogte positie van 0, 3=lengte vak, 4=hoogte vak
@@ -36,7 +38,6 @@ function draw() {
 
   //naam
   fill("#1100FF");
-  textSize("20");
   text("1.  Rico Borgdorff", 20, 30);
 
   //dobbelsteen
@@ -58,6 +59,7 @@ function draw() {
 
   //schaakboard
   fill("black");
+  strokeWeight(1);
   square (350,250,300);
   fill("nofill");
   square (350,350,100);
@@ -130,7 +132,7 @@ function draw() {
   rect(940, 300, 40, 20);
 
   fill("red");
-  text("7.", 720, 375);
+  text("7. Mario 8 bit", 720, 400);
 
   //Yoshi
   fill("blue");
@@ -185,4 +187,30 @@ function draw() {
 
   fill("blue")
   text("8.", 600, 650)
+
+  //logo
+  strokeWeight(1)
+  fill("white");
+  square(20, 800, 400);
+  fill("brown");
+  circle(220, 1000, 300);
+
+  strokeWeight(0)
+  fill("brown");
+  square(220, 1000, 150);
+
+  strokeWeight(1);
+  line(220, 1150, 370, 1150);
+  line(370, 1150, 370, 1000)
+  
+  fill("cyan");
+  ellipse(150, 950, 30, 30);
+  ellipse(250, 950, 30, 30);
+
+  stroke(0);
+  strokeWeight(1);
+  textSize(181);
+  fill("lime");
+  text("Y_", 140, 1091);
+  rect(310, 969, 15, 130);
 }
