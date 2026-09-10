@@ -44,7 +44,9 @@ function draw() {
   rect(400, 50, 100, 100, 20);
 
   fill("black");
-  circle(450, 100, 30);
+  circle(425, 75, 20);
+  circle(450, 100, 20);
+  circle(475, 125, 20);
   text("6", 390, 150);
 
   //huis
