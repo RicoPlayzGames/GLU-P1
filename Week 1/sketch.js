@@ -213,4 +213,6 @@ function draw() {
   fill("lime");
   text("Y_", 140, 1091);
   rect(310, 969, 15, 130);
+  textSize(20);
+  text("9. Logo", 20, 1220);
 }
