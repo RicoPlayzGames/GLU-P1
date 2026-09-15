@@ -13,16 +13,16 @@ function draw() {
 
   //mondriaan start rij 1
   fill("blue");
-  rect(4, 4, 150, 50);
+  rect(4, 4, 200, 50);
 
   fill("yellow");
-  rect(4, 54, 50, 50);
+  rect(4, 54, 200, 50);
 
   fill("nofill");
-  rect(4, 104, 80, 80);
+  rect(4, 104, 100, 80);
 
   fill("black");
-  rect(4, 144, 140, 120);
+  rect(4, 144, 200, 120);
 
   fill("nofill");
   rect(4, 264, 80, 140);
@@ -30,7 +30,4 @@ function draw() {
   //rij 2
   fill("black");
   rect(150, 4, 70, 50);
-
-  fill("red");
-  rect(54, 50, 80, 50);
 }
